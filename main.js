@@ -39,6 +39,7 @@ function showTweets(data) {
     div.innerHTML = htmlContentToAppend;
 }
 
+// Integrantes: Federico Boffa, Juan Manuel Delgado, Florencia Velázquez, Miguel Soffarelli
 function generateUsername(name){
     return (name.trim().replaceAll(/\s+/g, "_")).toLowerCase();
 };
